@@ -47,7 +47,7 @@ namespace Практическа_Тима_Раков
         }
 
         // Вывод всех публикаций пользователей
-        public static void PrintRegularUsersPublications()
+        public static void RegularUsersPublications()
         {
             Console.WriteLine("Публикации обычных пользователей:");
             foreach (var user in users)
@@ -63,7 +63,7 @@ namespace Практическа_Тима_Раков
         }
 
         //  Вывод всех публикаций издательств
-        public static void PrintPublishingAgenciesPublications()
+        public static void AgenciesPublications()
         {
             Console.WriteLine("Публикации издательских агентств:");
             foreach (var user in users)

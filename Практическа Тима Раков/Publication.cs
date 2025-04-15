@@ -9,7 +9,7 @@ namespace Практическа_Тима_Раков
     // Перечисление 
     public enum UserCategory
     {
-        RegularUser,       // Обычный пользователь
+        RegularUser,       // Пользователь
         PublishingAgency,  // Издательское агентство
         NewsChannel        // Новостной канал
     }

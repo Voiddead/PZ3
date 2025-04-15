@@ -21,9 +21,9 @@ class Program
         Console.WriteLine("Тестирование методов:");
         SocialNetwork.PrintUserPublications("user1");
         Console.WriteLine();
-        SocialNetwork.PrintRegularUsersPublications();
+        SocialNetwork.RegularUsersPublications();
         Console.WriteLine();
-        SocialNetwork.PrintPublishingAgenciesPublications();
+        SocialNetwork.AgenciesPublications();
         Console.WriteLine();
         SocialNetwork.PrintNewsChannelsPublications();
         Console.WriteLine();
